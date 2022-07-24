@@ -1,0 +1,23 @@
+{
+  "name": "typescript-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayeedMahdi/typeScript-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SayeedMahdi/typeScript-basics/issues"
+  },
+  "homepage": "https://github.com/SayeedMahdi/typeScript-basics#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
