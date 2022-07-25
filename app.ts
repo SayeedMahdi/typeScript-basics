@@ -14,5 +14,5 @@ var add = (num1: {x: string}, num2: number) : any => {
 }
 var num1: number = 12;
 var num2 = 125;
-var result = add(num2, 121);
+var result = add({x: '3'}, 121);
 console.log(result);
