@@ -1,8 +1,14 @@
-var add = function (num1, num2) {
-    return num1;
+var Role;
+(function (Role) {
+    Role[Role["admin"] = 12] = "admin";
+    Role["author"] = "au";
+    Role["user"] = "some";
+})(Role || (Role = {}));
+;
+var person2 = {
+    name: "mahdi",
+    age: 34,
+    role: Role.author
 };
-var num1 = 12;
-var num2 = "13";
-var result = add({ x: 'asdf' }, 121);
-console.log(result);
+console.log(person2.role);
 //# sourceMappingURL=app.js.map
