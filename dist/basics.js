@@ -1,4 +1,4 @@
-var add = function (num1, num2) {
+var add = (num1, num2) => {
     return num1;
 };
 var num1 = 12;

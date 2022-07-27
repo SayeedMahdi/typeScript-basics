@@ -5,7 +5,9 @@
       "removeComments": true,
       "preserveConstEnums": true,
       "sourceMap": true,
-      "outDir": "dist"
+      "outDir": "dist",
+      "target": "ES6",
+      "noEmitOnError": true,
     },
     "include": ["**/*"],
     "exclude": ["node_modules"]

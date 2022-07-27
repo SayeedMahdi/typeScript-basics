@@ -1,15 +1,14 @@
-var person = {
+const person = {
     name: 'Mahdi',
     age: 20,
     degrees: {
-        "class": "eight",
+        class: "eight",
         position: 23
     },
     hoby: ["Football", "handball"],
-    role: [2, "Authore"]
+    role: [2, "Authore"],
 };
-for (var _i = 0, _a = person.hoby; _i < _a.length; _i++) {
-    var hob = _a[_i];
+for (let hob of person.hoby) {
     console.log(hob.match.toString());
 }
 person.role = [12, "Admin"];
