@@ -8,6 +8,10 @@
       "outDir": "dist",
       "target": "ES6",
       "noEmitOnError": true,
+      "strict":true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+    
     },
     "include": ["**/*"],
     "exclude": ["node_modules"]
