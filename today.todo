@@ -1,0 +1,78 @@
+{
+  "todotree": {
+    "tree": [
+      {
+        "key": 1659152930696,
+        "children": [
+          {
+            "key": 1659153051997,
+            "children": [
+              {
+                "key": 1659153072616,
+                "children": [
+                  {
+                    "key": 1659153095760,
+                    "children": [],
+                    "todo": {
+                      "content": "constrator",
+                      "id": 1659153095760,
+                      "level": "default",
+                      "done": true
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "compilling",
+                  "id": 1659153072616,
+                  "level": "default",
+                  "done": true
+                }
+              }
+            ],
+            "todo": {
+              "content": "create first class",
+              "id": 1659153051997,
+              "level": "default",
+              "done": true
+            }
+          },
+          {
+            "key": 1659156500680,
+            "children": [],
+            "todo": {
+              "content": "using private",
+              "id": 1659156500680,
+              "level": "default",
+              "done": true
+            }
+          },
+          {
+            "key": 1659162529366,
+            "children": [],
+            "todo": {
+              "content": "GETTER AND SETTER",
+              "id": 1659162529366,
+              "level": "default",
+              "done": false
+            }
+          }
+        ],
+        "todo": {
+          "content": "lesson to chepter five",
+          "id": 1659152930696,
+          "level": "default",
+          "done": false
+        }
+      }
+    ],
+    "expandKeys": [
+      1659152930696,
+      1659153072616
+    ],
+    "schema": "https://github.com/Saber2pr/vsc-ext-todolist/blob/master/src/api/type.ts#L3",
+    "add_mode": "bottom",
+    "virtual": false,
+    "showLine": false,
+    "playFontSize": 24
+  }
+}

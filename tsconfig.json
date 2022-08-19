@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "compilerOptions": {
       "module": "system",
       "noImplicitAny": true,
@@ -12,3 +13,18 @@
     "include": ["src/*","**/*"],
     "exclude": ["node_modules"]
   }
+=======
+  "compilerOptions": {
+    "module": "system",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "target": "ES2017",
+    "noEmitOnError": true,
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules"]
+}
+>>>>>>> e84d9a4a473c30c4de3cbbc126b6280317b6624d
